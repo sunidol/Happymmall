@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf43c11f-073d-4c59-9bbb-47a512a1087b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mmall-fe2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/icon/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/about/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/cart/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/cart/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/cart/index.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/footer/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/header/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/nav-side/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/nav-side/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/nav-side/index.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/nav-simple/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/nav-simple/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/nav/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/common/nav/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/detail/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/detail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/detail/index.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/index/banner.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/index/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/index/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/list/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/list/index.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-confirm/address-list.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-confirm/address-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-confirm/address-modal.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-confirm/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-confirm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-confirm/product-list.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-detail/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-detail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-detail/index.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-list/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/order-list/index.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/payment/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/payment/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/payment/index.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/result/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/result/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-center-update/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-center-update/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-center-update/index.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-center/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-center/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-center/index.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-login/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-login/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-pass-reset/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-pass-reset/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-pass-update/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-pass-update/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-register/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user-register/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/address-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/cart-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/order-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/payment-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/product-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/user-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/cities/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/mm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/pagination/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/pagination/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/pagination/index.string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/slider/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/slider/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/slider/unslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/layout/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/layout/head-common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/layout/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/layout/nav-side.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/layout/nav-simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/layout/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/order-confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/order-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/order-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/user-center-update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/user-center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/user-login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/user-pass-reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/user-pass-update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/user-register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/src/image/floor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/src/page/common/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/src/page/index/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/src/page/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/src/page/login/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/src/page/module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/src/util/mm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/src/view/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/src/view/layout/html-head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/src/view/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall-fe/webpack.config.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/views/GoodsList.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/views/Cart.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pop</find>
+      <find>login</find>
+      <find>USER</find>
+      <find>detail</find>
+      <find>register-success</find>
+      <find>sto</find>
+      <find>fa</find>
+      <find>getProvinces</find>
+      <find>modal-wrap</find>
+      <find>modelwrap</find>
+      <find>ass</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\Github\Happymmall\mmall-fe2\dist\js</dir>
+      <dir>E:\Github\Happymmall\mmall-fe2\dist</dir>
+      <dir>E:\Github\Happymmall\mmall-fe2</dir>
+      <dir>E:\Github\Happymmall\mmall-fe2\src\view</dir>
+      <dir>E:\Github\Happymmall\mmall-fe2\src\view\layout</dir>
+      <dir>E:\Github\Happymmall\mmall-fe2\src</dir>
+      <dir>E:\Github\vue_market\QIRunMall\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/page/order-list/index.js" />
+        <option value="$PROJECT_DIR$/src/page/order-list/index.string" />
+        <option value="$PROJECT_DIR$/src/view/order-detail.html" />
+        <option value="$PROJECT_DIR$/src/page/order-detail/index.string" />
+        <option value="$PROJECT_DIR$/src/service/order-service.js" />
+        <option value="$PROJECT_DIR$/src/page/order-detail/index.css" />
+        <option value="$PROJECT_DIR$/src/page/order-detail/index.js" />
+        <option value="$PROJECT_DIR$/src/page/payment/index.css" />
+        <option value="$PROJECT_DIR$/src/view/payment.html" />
+        <option value="$PROJECT_DIR$/src/page/payment/index.string" />
+        <option value="$PROJECT_DIR$/src/service/payment-service.js" />
+        <option value="$PROJECT_DIR$/src/view/result.html" />
+        <option value="$PROJECT_DIR$/src/page/result/index.js" />
+        <option value="$PROJECT_DIR$/src/view/layout/head-common.html" />
+        <option value="$PROJECT_DIR$/src/view/about.html" />
+        <option value="$PROJECT_DIR$/src/page/about/index.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/../../vue_market/demo.html" />
+        <option value="$PROJECT_DIR$/../../vue_market/demo1/index.html" />
+        <option value="$PROJECT_DIR$/../../vue_market/Demo3/build/check-versions.js" />
+        <option value="$PROJECT_DIR$/../../vue_market/Demo3/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/../../vue_market/Demo3/build/build.js" />
+        <option value="$PROJECT_DIR$/../../vue_market/Demo3/build/webpack.prod.conf.js" />
+        <option value="$PROJECT_DIR$/../../vue_market/Demo3/src/components/HelloWorld.vue" />
+        <option value="$PROJECT_DIR$/../../vue_market/Demo3/src/components/counter.vue" />
+        <option value="$PROJECT_DIR$/src/util/pagination/index.js" />
+        <option value="$PROJECT_DIR$/src/page/list/index.js" />
+        <option value="$PROJECT_DIR$/src/page/list/index.css" />
+        <option value="$PROJECT_DIR$/src/view/user-center.html" />
+        <option value="$PROJECT_DIR$/src/view/layout/nav.html" />
+        <option value="$PROJECT_DIR$/src/util/mm.js" />
+        <option value="$PROJECT_DIR$/src/page/common/nav/index.js" />
+        <option value="$PROJECT_DIR$/src/view/user-pass-reset.html" />
+        <option value="$PROJECT_DIR$/src/util/cities/index.js" />
+        <option value="$PROJECT_DIR$/src/page/order-confirm/index.js" />
+        <option value="$PROJECT_DIR$/src/service/address-service.js" />
+        <option value="$PROJECT_DIR$/src/page/order-confirm/address-modal.js" />
+        <option value="$PROJECT_DIR$/src/page/order-confirm/address-modal.string" />
+        <option value="$PROJECT_DIR$/src/page/detail/index.string" />
+        <option value="$PROJECT_DIR$/src/service/product-service.js" />
+        <option value="$PROJECT_DIR$/src/page/detail/index.js" />
+        <option value="$PROJECT_DIR$/src/page/order-confirm/index.css" />
+        <option value="$PROJECT_DIR$/src/page/user-center-update/index.js" />
+        <option value="$PROJECT_DIR$/src/page/payment/index.js" />
+        <option value="$PROJECT_DIR$/../../vue_market/QIRunMall/index.html" />
+        <option value="$PROJECT_DIR$/../../vue_market/QIRunMall/src/views/goodTitle.vue" />
+        <option value="$PROJECT_DIR$/../../vue_market/QIRunMall/src/views/goodImg.vue" />
+        <option value="$PROJECT_DIR$/../../vue_market/QIRunMall/src/views/Cart.vue" />
+        <option value="$PROJECT_DIR$/../../vue_market/QIRunMall/src/router/index.js" />
+        <option value="$PROJECT_DIR$/../../vue_market/QIRunMall/src/App.vue" />
+        <option value="$PROJECT_DIR$/../../vue_market/QIRunMall/src/views/GoodsList.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="542" />
+    <option name="y" value="244" />
+    <option name="width" value="2022" />
+    <option name="height" value="1566" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mmall-fe2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmall-fe2" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="mmall-fe2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmall-fe2" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="vue_market" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmall-fe2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmall-fe2" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="vue_market" type="462c0819:PsiDirectoryNode" />
+              <item name="QIRunMall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmall-fe2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmall-fe2" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="vue_market" type="462c0819:PsiDirectoryNode" />
+              <item name="QIRunMall" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmall-fe2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmall-fe2" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="vue_market" type="462c0819:PsiDirectoryNode" />
+              <item name="QIRunMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmall-fe2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmall-fe2" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="vue_market" type="462c0819:PsiDirectoryNode" />
+              <item name="QIRunMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmall-fe2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmall-fe2" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="vue_market" type="462c0819:PsiDirectoryNode" />
+              <item name="QIRunMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmall-fe2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmall-fe2" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="vue_market" type="462c0819:PsiDirectoryNode" />
+              <item name="QIRunMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmall-fe2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmall-fe2" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="vue_market" type="462c0819:PsiDirectoryNode" />
+              <item name="QIRunMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../vue_market" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github\Happymmall\mmall-fe2\src\page\user-register" />
+      <recent name="E:\Github\Happymmall\mmall-fe2\src\image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\Happymmall\mmall-fe2\src\image\icon" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf43c11f-073d-4c59-9bbb-47a512a1087b" name="Default Changelist" comment="" />
+      <created>1560844972671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560844972671</updated>
+      <workItem from="1560844973942" duration="14535000" />
+      <workItem from="1560938722928" duration="4668000" />
+      <workItem from="1561005400723" duration="17311000" />
+      <workItem from="1561077051704" duration="22559000" />
+      <workItem from="1561163817880" duration="15803000" />
+      <workItem from="1561250039391" duration="24793000" />
+      <workItem from="1561335583169" duration="3421000" />
+      <workItem from="1561375015110" duration="8769000" />
+      <workItem from="1561594397217" duration="4859000" />
+      <workItem from="1561633249907" duration="11429000" />
+      <workItem from="1561687357628" duration="12476000" />
+      <workItem from="1561768202977" duration="21939000" />
+      <workItem from="1561808119337" duration="2455000" />
+      <workItem from="1561817297172" duration="551000" />
+      <workItem from="1561857381244" duration="12030000" />
+      <workItem from="1561942999923" duration="17986000" />
+      <workItem from="1561977076425" duration="2546000" />
+      <workItem from="1562023549981" duration="20928000" />
+      <workItem from="1562067333349" duration="9135000" />
+      <workItem from="1562113072325" duration="14338000" />
+      <workItem from="1562200131297" duration="14444000" />
+      <workItem from="1562313137025" duration="605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="257580000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="271" y="122" width="1011" height="783" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.50089765" side_tool="true" weight="0.23927177" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49910232" weight="0.18069816" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3278237" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../../vue_market/Demo3/build/webpack.dev.conf.js</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/page/common/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/Demo3/src/components/counter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/Demo3/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/user-register/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="72" column="51" lean-forward="true" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/common/nav/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/layout/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/common/nav/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/user-login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/mm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/layout/footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/layout/head-common.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/user-pass-reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/user-register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/order-list/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-868" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/order-detail/index.string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/order-confirm/product-list.string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/order-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/cities/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/order-confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/order-confirm/address-list.string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/order-confirm/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/order-confirm/address-modal.string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/order-confirm/address-modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="122" column="39" lean-forward="true" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/address-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/detail/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/list/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/order-detail/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="56" column="58" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/cart/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="141" column="6" lean-forward="true" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/detail/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/order-confirm/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/product-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/detail/index.string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/user-center-update/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/user-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/user-center-update/index.string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/payment-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/payment/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/views/goodImg.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/views/goodTitle.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/views/GoodsList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/views/Cart.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../vue_market/QIRunMall/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

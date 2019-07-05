@@ -1,0 +1,13 @@
+/*因为footer是每个页面都要用的，所以不用建一个js来引用,直接在common中的index.js中引用*/
+.footer{
+    padding-bottom: 10px;
+}
+.footer .links,
+.footer .copyright{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
+.footer .links .link{
+    padding: 0 10px;
+}

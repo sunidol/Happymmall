@@ -1,0 +1,64 @@
+/*banner*/
+.banner {
+    width:830px;
+    height:370px;
+    box-shadow:2px 2px 10px #C38DD4;
+    border-radius:20px;
+    position:relative;
+    overflow:hidden;
+}
+.banner ul {
+    position:relative;
+    width:4160px;
+}
+.banner ul li {
+    float:left;
+    width:830px;
+    height:370px;
+    position:relative;
+}
+/*引导点*/
+.banner .spanBox {
+    position:absolute;
+    width:140px;
+    height:20px;
+    bottom:10px;
+    right:333px;
+}
+.banner .spanBox span {
+    width:12px;
+    height:12px;
+    margin-left:6px;
+    float:left;
+    border:solid 1px #fff;
+    cursor: pointer;
+    border-radius:12px;
+}
+.banner .spanBox .active {
+    background-color:#fff;
+}
+/*前一张后一张按钮*/
+.prev,
+.next{
+    width:30px;
+    height:50px;
+    position:absolute;
+    opacity:0.5;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    background: rgba(0,0,0,.2);
+    cursor: pointer;
+    color: #fff;
+}
+.prev {
+    left:0px;
+    top:170px;
+    float:left;
+}
+.next {
+    right:0px;
+    top:170px;
+    float:right;
+}
